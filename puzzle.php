@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<?php include "meta.php"?>
 <title>Игра в загадки</title>
-<link rel="stylesheet" href="style.css"> 
 <script type="text/javascript">
 
 	var score = 0;
