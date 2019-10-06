@@ -8,13 +8,8 @@
 <body>
 
 <div class="content">
-	<div class="header">
-		<a href="index.html">Главная</a>
-		<a href="puzzle.html">Загадки</a>
-		<a href="guess.html">Угадайка</a>
-		<a href="guessFor2.html">Угадайка на двоих</a>
-		<a href="pass-generator.html">Генератор пароля</a>
-	</div>
+
+	<?php include "menu.php"?>
 
 	<h1>Личный сайт студента GeekBrains</h1>
 
@@ -26,17 +21,17 @@
 			<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains</a></p>
 
 			<p>На этом сайте вы сможете сыграть в несколько игр, которые я написала: <br>
-			<a href="index.html">Главная</a>
-			<a href="puzzle.html">Загадки,</a>
-			<a href="guess.html">Угадайка</a>
-			<a href="guessFor2.html">Угадайка на двоих</a>
-			<a href="pass-generator.html">Генератор пароля</a>
+			<a href="index.php">Главная</a>
+			<a href="puzzle.php">Загадки,</a>
+			<a href="guess.php">Угадайка</a>
+			<a href="guessFor2.php">Угадайка на двоих</a>
+			<a href="pass-generator.php">Генератор пароля</a>
 			</p>
 		</div>
 	</div>
 </div>
 <div class="footer">
-	Copyright &copy; Lisa Iovleva
+	Copyright &copy; <?php echo date("Y")?> Lisa Iovleva
 <div>
 
 
