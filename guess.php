@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<?php include "meta.php"?>
 <title>Игра угадайка</title>
-<link rel="stylesheet" href="style.css"> 
 <script type="text/javascript">
 
 	var answer = parseInt(Math.random() * 100);

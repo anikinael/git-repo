@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<?php include "meta.php"?>
 	<title>Личный сайт студента GeekBrains</title>
-	<link rel="stylesheet" href="style.css"> 
-</head>
 <body>
 
 <div class="content">
