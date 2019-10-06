@@ -67,13 +67,7 @@
 <body>
 
 <div class="content">
-	<div class="header">
-		<a href="index.html">Главная</a>
-		<a href="puzzle.html">Загадки</a>
-		<a href="guess.html">Угадайка</a>
-		<a href="guessFor2.html">Угадайка на двоих</a>
-		<a a href="pass-generator.html">Генератор пароля</a>
-	</div>
+	<?php include "menu.php"?>
 
 	<div class="contentWrap">
 	    <div class="content">
@@ -94,18 +88,13 @@
 	        </div>
 	    </div>
 	</div>
-
-	
-
 </div>
-<div class="footer">
-	Copyright &copy; Lisa Iovleva
-	<script type="text/javascript">
-		
-		document.getElementById("userAnswer").style.display = "none";
-	</script>
-<div>
+<?php include "footer.php"?>
 
 
 </body>
+<script type="text/javascript">
+		
+		document.getElementById("userAnswer").style.display = "none";
+	</script>
 </html>

@@ -73,44 +73,30 @@
 <body>
 
 <div class="content">
-	<div class="header">
-		<a href="index.html">Главная</a>
-		<a href="puzzle.html">Загадки</a>
-		<a href="guess.html">Угадайка</a>
-		<a href="guessFor2.html">Угадайка на двоих</a>
-		<a a href="pass-generator.html">Генератор пароля</a>
-	</div>
+	<?php include "menu.php"?>
 
-<div class="contentWrap">
-    <div class="content">
-        <div class="center">
+	<div class="contentWrap">
+		<div class="content">
+			<div class="center">
 
-			<h1>Игра угадайка</h1>
+				<h1>Игра угадайка</h1>
 
-			<div class="box">
+				<div class="box">
 
-				<p id="brief">Угадайте число от 0 до 100</p>
+					<p id="brief">Угадайте число от 0 до 100</p>
 
-				<input type="text" id="userAnswer">
-				<br>
-				<a href="#" onClick="guess()" id="button">Начать</a>				
+					<input type="text" id="userAnswer">
+					<br>
+					<a href="#" onClick="guess()" id="button">Начать</a>				
+				</div>
+
 			</div>
-
-        </div>
-    </div>
-</div>
-
-	
-
-</div>
-<div class="footer">
-	Copyright &copy; Lisa Iovleva
-	<script type="text/javascript">
-		
-		document.getElementById("userAnswer").style.display = "none";
-	</script>
-<div>
-
-
+		</div>
+	</div>
+	</div>
+	<?php include "footer.php"?>
 </body>
+<script type="text/javascript">		
+	document.getElementById("userAnswer").style.display = "none";
+</script>
 </html>
